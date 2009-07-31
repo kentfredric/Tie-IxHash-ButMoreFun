@@ -7,7 +7,7 @@
       "version" : 1.4,
       "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
    },
-   "version" : "1.0921113",
+   "version" : "1.0921204",
    "name" : "Tie-IxHash-ButMoreFun",
    "author" : [
       "Kent Fredric <kentnl@cpan.org>"
@@ -15,16 +15,18 @@
    "license" : "perl",
    "provides" : {
       "Tie::IxHash::ButMoreFun" : {
-         "version" : "1.0921113",
+         "version" : "1.0921204",
          "file" : "lib/Tie/IxHash/ButMoreFun.pm"
       }
    },
    "requires" : {
       "Test::More" : "0",
+      "MooseX::Types::Moose" : "0",
       "namespace::autoclean" : "0",
       "Tie::IxHash" : "0",
       "Test::use::ok" : "0.02",
-      "Moose" : "0.65"
+      "Moose" : "0.65",
+      "Carp" : "0"
    },
    "abstract" : "A user-friendly wrapper to a Tie::IxHash object to fill some use case holes."
 }

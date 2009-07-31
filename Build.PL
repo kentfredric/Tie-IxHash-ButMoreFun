@@ -14,10 +14,12 @@ my $build = Module::Build->new(
   ],
   requires      => {
     "Test::More" => '0',
+    "MooseX::Types::Moose" => '0',
     "namespace::autoclean" => '0',
     "Tie::IxHash" => '0',
     "Test::use::ok" => '0.02',
     "Moose" => '0.65',
+    "Carp" => '0',
   },
   script_files => [ qw() ],
 );

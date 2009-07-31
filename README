@@ -3,7 +3,7 @@ NAME
     object to fill some use case holes.
 
 VERSION
-    version 1.0921113
+    version 1.0921204
 
 SYNOPSIS
     Tie::IxHash is a generally ok container, but I found the methods it

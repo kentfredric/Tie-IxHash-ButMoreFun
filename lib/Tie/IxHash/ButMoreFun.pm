@@ -1,5 +1,5 @@
 package Tie::IxHash::ButMoreFun;
-our $VERSION = '1.0921113';
+our $VERSION = '1.0921204';
 
 
 # ABSTRACT: A user-friendly wrapper to a Tie::IxHash object to fill some use case holes.
@@ -305,7 +305,7 @@ Tie::IxHash::ButMoreFun - A user-friendly wrapper to a Tie::IxHash object to fil
 
 =head1 VERSION
 
-version 1.0921113
+version 1.0921204
 
 =head1 SYNOPSIS
 

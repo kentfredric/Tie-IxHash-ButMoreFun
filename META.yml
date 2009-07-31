@@ -11,13 +11,15 @@ name: Tie-IxHash-ButMoreFun
 provides:
   Tie::IxHash::ButMoreFun:
     file: lib/Tie/IxHash/ButMoreFun.pm
-    version: 1.0921113
+    version: 1.0921204
 requires:
+  Carp: 0
   Moose: 0.65
+  MooseX::Types::Moose: 0
   Test::More: 0
   Test::use::ok: 0.02
   Tie::IxHash: 0
   namespace::autoclean: 0
 resources:
   repository: http://github.com/kentfredric/tie-ixhash-butmorefun
-version: 1.0921113
+version: 1.0921204
